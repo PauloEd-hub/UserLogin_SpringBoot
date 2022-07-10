@@ -6,13 +6,13 @@ server:
 spring:
   datasource:
       password: 1234567
-      url: jdbc:postgresql://localhost:5430/registration
+      url: jdbc:postgresql://localhost:5430/register
       username: postgres
   jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgresSQLDialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: true
